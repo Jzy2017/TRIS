@@ -29,6 +29,7 @@ code:
 0817
 ​```
 
+##Note
 - Note:
   * For training, an NVIDIA GPU is strongly recommended for speed.
   * For instructions on Visdom usage/installation, see the <a href='#installation'>Installation</a> section.
