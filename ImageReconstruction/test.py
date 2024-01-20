@@ -84,7 +84,7 @@ for xi in x:
 
         netG=model.UNet(6,3)
         #filename = 'coco/snapshot_Darts_630/8_G.pkl'
-        filename = 'coco/snapshot_630/10_G.pkl'
+        filename = 'rescontruction.pkl'
 
         device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
         checkpoint = torch.load(filename, map_location=device)
