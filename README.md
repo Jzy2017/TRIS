@@ -23,28 +23,37 @@ pip install -r requirements.txt
 ## 🤖 Download
 Download the pre-trained model
 - [Google Drive](https://drive.google.com/drive/folders/1HvAHd3QGUmXwrY7P-oW65RNka-Av4h8K?usp=sharing)
+- [Baidu Yun](https://pan.baidu.com/s/1x3l1eGO27ScgUksgG9l9zg) \
+code:
+​```
+0817
+​```
+
+- Note:
+  * For training, an NVIDIA GPU is strongly recommended for speed.
+  * For instructions on Visdom usage/installation, see the <a href='#installation'>Installation</a> section.
+  * You can train and test the model using the following commands, or choose the pre-trained checkpoint that we provide.
+  * For using custom data and pre-trained models, you need to replace the paths in the code with your own local paths.
 
 ## ImageAlignment
-- First, you need to train a imagealignment model:
+- First, you need to train a image alignment model:
 ```bash
 cd ImageAlignment
 python train.py
 ```
-- Evaluation
-To test a trained network(you can train by yourself or use the pre-trained model):
+- To test a trained alignment network:
 
 ```Shell
 python test.py
 ```
 
 ## ImageReconstruction
-- Second, you need to train a imagereconstruction model:
+- Second, you need to train a imagere construction model:
 ```bash
 cd ../ImageReconstruction
 python train.py
 ```
-- Evaluation
-To test a trained network(you can train by yourself or use the pre-trained model):
+- To test a trained construction network:
 
 ```Shell
 python test.py
