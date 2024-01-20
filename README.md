@@ -29,8 +29,7 @@ code:
 0817
 ​```
 
-##Note
-- Note:
+## Note
   * For training, an NVIDIA GPU is strongly recommended for speed.
   * For instructions on Visdom usage/installation, see the <a href='#installation'>Installation</a> section.
   * You can train and test the model using the following commands, or choose the pre-trained checkpoint that we provide.
