@@ -4,7 +4,7 @@ This repo is the official implementation of,
 Zhiying Jiang, Xingyuan Li, Jinyuan Liu, Xin Fan, Risheng Liu*, Association for the Advancement of Artificial Intelligence __(AAAI)__, 2024.
 
 ## Overview
-![avatar](Overview.PNG)
+![avatar](Overview.png)
 
 ## Prerequisites
 - Linux or macOS
