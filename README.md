@@ -31,7 +31,6 @@ code:
 
 ## Note
   * For training, an NVIDIA GPU is strongly recommended for speed.
-  * For instructions on Visdom usage/installation, see the <a href='#installation'>Installation</a> section.
   * You can train and test the model using the following commands, or choose the pre-trained checkpoint that we provide.
   * For using custom data and pre-trained models, you need to replace the paths in the code with your own local paths.
 
@@ -48,7 +47,7 @@ python test.py
 ```
 
 ## ImageReconstruction
-- Second, you need to train a imagere construction model:
+- Second, you need to train a image reconstruction model:
 ```bash
 cd ../ImageReconstruction
 python train.py
