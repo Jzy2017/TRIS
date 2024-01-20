@@ -4,7 +4,10 @@ This repo is the official implementation of,
 Zhiying Jiang, Xingyuan Li, Jinyuan Liu, Xin Fan, Risheng Liu*, Association for the Advancement of Artificial Intelligence __(AAAI)__, 2024.
 
 ## Overview
-![avatar](Overview.png)
+<p align="center">
+  <img src="Overview.png" alt="avatar">
+</p>
+
 
 ## Prerequisites
 - Linux or macOS
