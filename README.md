@@ -52,7 +52,7 @@ python test.py
 cd ../ImageReconstruction
 python train.py
 ```
-- To test a trained construction network:
+- To test a trained reconstruction network:
 
 ```Shell
 python test.py
