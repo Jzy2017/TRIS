@@ -1,7 +1,9 @@
 # Towards Robust Image Stitching: An Adaptive Resistance Learning against Compatible Attacks
 This repo is the official implementation of,
-**“[Towards Robust Image Stitching: An Adaptive Resistance Learning against Compatible Attacks](https://arxiv.org/abs/2402.15959)”**, 
+**“Towards Robust Image Stitching: An Adaptive Resistance Learning against Compatible Attacks”**, 
 Zhiying Jiang, Xingyuan Li, Jinyuan Liu, Xin Fan, Risheng Liu*, Association for the Advancement of Artificial Intelligence __(AAAI)__, 2024.
+
+- [*[ArXiv]*](https://arxiv.org/abs/2402.15959)
 
 ## Overview
 <p align="center">
