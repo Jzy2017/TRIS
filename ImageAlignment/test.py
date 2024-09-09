@@ -100,16 +100,7 @@ for netR_path in pth_bin:
         train_vis_inputs=torch.cat((vis_input1,vis_input2), 3)
         #print(train_vis_inputs.shape)
 
-        if attack == 'fgsm_attack':
-            train_vis_inputs = _fgsm_whitebox(netR, train_vis_inputs)
-        elif attack == 'pgd_attack':
-            train_vis_inputs = _pgd_whitebox(netR, train_vis_inputs)
-        elif attack == 'our_attack':
-            train_vis_inputs = _pgd_whitebox(netR, train_vis_inputs)
-        elif attack == 'bim_attack':
-            train_vis_inputs = _bim_whitebox(netR, train_vis_inputs)
-        else:
-            train_vis_inputs = train_vis_inputs
+        train_vis_inputs = _pgd_whitebox(netR, train_vis_inputs)
 
         #print(train_ir_inputs.shape)
         vis_inputs1_attack = (train_vis_inputs.squeeze(0)[...,:3].detach().cpu().numpy()*255).astype(np.uint8)
