@@ -30,7 +30,13 @@ code:
 ​```
 0817
 ​```
-
+Download our collected dataset:
+- [Google Drive](https://drive.google.com/file/d/1gYc37cJtfsLV6s38nPROp2EHIhnuhOEl/view?usp=sharing)
+- [Baidu Yun](https://pan.baidu.com/s/1dTZIdYjPuNAWFdmqbRDzSw) \
+code:
+​```
+0817
+​```
 ## Note
   * For training, an NVIDIA GPU is strongly recommended for speed.
   * You can train and test the model using the following commands, or choose the pre-trained checkpoint that we provide.
